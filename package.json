@@ -1,0 +1,19 @@
+{
+  "name": "curso-vue.js",
+  "version": "1.0.0",
+  "description": "Curso de Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "Carlos Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "pinia": "^2.0.23",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
